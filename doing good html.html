@@ -56,8 +56,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-operation-hat-trick" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('46-1470087');checkSelectedCharityCookie()"
+                            <li><input id="cause-operation-hat-trick sg-46-1470087" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('46-1470087');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-operation-hat-trick">Select
                                     Cause</label></li>
                         </ul>
@@ -87,8 +87,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-american-cancer" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('13-1788491');checkSelectedCharityCookie()"
+                            <li><input id="cause-american-cancer sg-13-1788491" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('13-1788491');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-american-cancer">Select
                                     Cause</label></li>
                         </ul>
@@ -120,8 +120,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-k9s-front-line" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('81-1979283');checkSelectedCharityCookie()"
+                            <li><input id="cause-k9s-front-line sg-81-1979283" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('81-1979283');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-k9s-front-line">Select
                                     Cause</label></li>
                         </ul>
@@ -150,8 +150,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-st-jude" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('62-0646012');checkSelectedCharityCookie()"
+                            <li><input id="cause-st-jude sg-62-0646012" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('62-0646012');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-st-jude">Select Cause</label>
                             </li>
                         </ul>
@@ -179,8 +179,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-best-buddies" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('52-1614576');checkSelectedCharityCookie()"
+                            <li><input id="cause-best-buddies sg-52-1614576" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('52-1614576');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-best-buddies">Select
                                     Cause</label></li>
                         </ul>
@@ -208,8 +208,8 @@
                         <ul>
                             <li><a class="read-more" href="javascript:void(0);">Read More</a><a class="show-less hide"
                                     href="javascript:void(0);">Show Less</a></li>
-                            <li><input id="cause-maine-cancer" class="cause-radio"
-                                    onclick="javascript:setCharityCookieManually('01-0540180');checkSelectedCharityCookie()"
+                            <li><input id="cause-maine-cancer sg-01-0540180" class="cause-radio"
+                                    onclick="javascript:window.location='#buy-section';setCharityCookieManually('01-0540180');checkSelectedCharityCookie()"
                                     type="radio" name="causeradio" /> <label for="cause-maine-cancer">Select
                                     Cause</label></li>
                         </ul>
@@ -219,7 +219,7 @@
         </div>
     </div>
 </div>
-<div class="buy-section">
+<div class="buy-section" id="buy-section">
     <div class="buy-section-wrapper">
         <div class="buy-section-head">
             <p class="buy-section-title" style="text-align: center;"><span style="font-size: xx-large;">Give Back Every
@@ -269,6 +269,9 @@
                         alt="Infant | Child" /></a>
                 <p><span style="font-size: large;">Infant | Child</span></p>
             </div>
+        </div>
+        <div class="buy-section-clear-charity">
+            <input type="button" value="Clear Charity Selection" onclick="javascript:setCookie('sgcause',undefined,-100); setCookie('sgcause-is-manually-set', undefined, -100);">
         </div>
     </div>
 </div>
